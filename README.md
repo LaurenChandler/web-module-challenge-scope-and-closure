@@ -42,6 +42,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+Closure is when a function has access to the parent scope, even after the parent function has closed.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,9 +64,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+Closure is used in the constants dansRoll and zoesRoll that are invoking code within the curly braces
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+Dan will always roll a number 1-6, the number may change because it is random.
 c. What is the lexical scope of `newRoll`? 
-
+When `newRoll` is executed, it has access to a lexicon of personalDice() and return function().
 ### Task 2c - Exit Ticket
 
 Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/WjSzNh9gDrD8Xn8hw/enY3yPRP3nEm7E).
